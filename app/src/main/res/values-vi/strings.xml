@@ -1,0 +1,264 @@
+<resources>
+    <string name="app_name">Pickora</string>
+
+    <!-- Home -->
+    <string name="home_tagline">Chọn ngẫu nhiên mọi thứ</string>
+    <string name="home_quick_start">Bắt đầu nhanh</string>
+    <string name="home_hero_cta">Chạm để quay</string>
+    <string name="home_all_modes">Tất cả chế độ</string>
+    <string name="home_quick_presets">Mẫu có sẵn</string>
+    <string name="home_history">Lịch sử</string>
+    <string name="home_saved_lists">Danh sách đã lưu</string>
+    <string name="home_recent_pick">Kết quả gần đây</string>
+    <string name="home_no_recent">Chưa có kết quả</string>
+    <string name="home_preset_items_count">%d mục</string>
+    <string name="home_continue_with">Tiếp tục với</string>
+    <string name="home_tap_to_open">Chạm để mở</string>
+    <string name="home_for_groups">Cho nhóm</string>
+    <string name="home_quick_decisions">Quyết định nhanh</string>
+    <string name="home_use_case_who_first">Ai đi trước?</string>
+    <string name="home_use_case_what_eat">Ăn gì hôm nay?</string>
+    <string name="home_use_case_who_pays">Ai trả bill?</string>
+    <string name="home_use_case_yes_or_no">Có hay không?</string>
+    <string name="home_use_case_pick_number">Chọn một số</string>
+    <string name="home_use_case_flip_coin">Tung đồng xu</string>
+
+    <!-- Picker modes -->
+    <string name="mode_spin_wheel">Vòng quay</string>
+    <string name="mode_spin_wheel_desc">Quay để chọn người thắng</string>
+    <string name="mode_name_picker">Chọn tên</string>
+    <string name="mode_name_picker_desc">Chọn ngẫu nhiên một tên</string>
+    <string name="mode_random_number">Số ngẫu nhiên</string>
+    <string name="mode_random_number_desc">Tạo một con số</string>
+    <string name="mode_yes_no">Có / Không</string>
+    <string name="mode_yes_no_desc">Quyết nhanh có hoặc không</string>
+    <string name="mode_coin_flip">Tung xu</string>
+    <string name="mode_coin_flip_desc">Sấp hay ngửa</string>
+    <string name="mode_animal_race">Đua thú</string>
+    <string name="mode_animal_race_desc">Đua tới đích</string>
+
+    <!-- Actions -->
+    <string name="action_spin">QUAY</string>
+    <string name="action_back">Quay lại</string>
+    <string name="action_share">Chia sẻ</string>
+    <string name="action_start_race">BẮT ĐẦU</string>
+    <string name="action_reset">LÀM MỚI</string>
+    <string name="action_generate">TẠO</string>
+    <string name="action_decide">CHỌN</string>
+    <string name="action_flip">TUNG</string>
+    <string name="action_pick_name">CHỌN TÊN</string>
+    <string name="action_run_again">Chạy lại</string>
+
+    <!-- States -->
+    <string name="state_spinning">Đang quay…</string>
+    <string name="state_racing">Đang đua…</string>
+    <string name="state_generating">Đang tạo…</string>
+    <string name="state_deciding">Đang chọn…</string>
+    <string name="state_flipping">Đang tung…</string>
+    <string name="state_picking">Đang chọn…</string>
+
+    <!-- Misc -->
+    <string name="options_count">%d mục</string>
+    <string name="racers_count">%d người đua</string>
+    <string name="names_count">%d tên</string>
+    <string name="remove_after_pick">Tự xóa khi trúng</string>
+    <string name="add_name_hint">Thêm tên…</string>
+    <string name="label_min">Tối thiểu</string>
+    <string name="label_max">Tối đa</string>
+    <string name="label_to">đến</string>
+    <string name="label_history">Lịch sử</string>
+    <string name="label_yes">CÓ</string>
+    <string name="label_no">KHÔNG</string>
+    <string name="label_heads">Ngửa</string>
+    <string name="label_tails">Sấp</string>
+    <string name="wins_suffix">%s thắng!</string>
+    <string name="paste_list">Dán danh sách</string>
+    <string name="paste_hint">Mỗi dòng một mục, hoặc dùng dấu phẩy</string>
+    <string name="paste_add">Thêm tất cả</string>
+    <string name="share_result">Chia sẻ kết quả</string>
+
+    <!-- Share messages -->
+    <string name="share_wheel">Vòng quay chọn: %s</string>
+    <string name="share_number">Số ngẫu nhiên: %s</string>
+    <string name="share_name">Người được chọn: %s</string>
+    <string name="share_yesno">Câu trả lời: %s</string>
+    <string name="share_coinflip">Kết quả tung xu: %s</string>
+    <string name="share_race">Người thắng cuộc đua: %s</string>
+    <string name="share_default">Kết quả: %s</string>
+    <string name="share_suffix">\n\n— Pickora App</string>
+
+    <!-- Number screen -->
+    <string name="number_title">Số ngẫu nhiên</string>
+    <string name="number_placeholder">?</string>
+
+    <!-- Yes/No screen -->
+    <string name="yesno_title">Có hay Không</string>
+    <string name="yesno_placeholder">?</string>
+
+    <!-- Coin Flip screen -->
+    <string name="coinflip_title">Tung đồng xu</string>
+
+    <!-- Race screen -->
+    <string name="race_title">Đua thú</string>
+    <string name="race_edit">Sửa người đua</string>
+    <string name="race_add_hint">Thêm người đua…</string>
+    <string name="race_again">Đua lại</string>
+    <string name="race_save_roster">Lưu đội hình</string>
+    <string name="race_winner_label">Chiến thắng</string>
+    <string name="race_save_dialog_title">Lưu đội hình</string>
+    <string name="race_save_dialog_hint">Tên đội hình</string>
+    <string name="race_default_save_name">Đội hình của tôi</string>
+
+    <!-- History screen -->
+    <string name="history_title">Lịch sử</string>
+    <string name="history_empty">Chưa có lịch sử</string>
+    <string name="history_empty_sub">Kết quả sẽ hiện ở đây sau khi bạn chọn</string>
+    <string name="history_clear_all">Xóa tất cả</string>
+    <string name="history_type_wheel">Vòng quay</string>
+    <string name="history_type_number">Số</string>
+    <string name="history_type_name">Chọn tên</string>
+    <string name="history_type_yesno">Có / Không</string>
+    <string name="history_type_coinflip">Tung xu</string>
+    <string name="history_type_race">Đua</string>
+    <string name="history_with_options">từ: %s</string>
+
+    <!-- Saved lists -->
+    <string name="saved_lists_title">Danh sách đã lưu</string>
+    <string name="saved_lists_empty">Chưa có danh sách</string>
+    <string name="saved_lists_empty_sub">Chạm + để tạo mới</string>
+    <string name="saved_lists_create">Tạo danh sách mới</string>
+    <string name="saved_lists_name_label">Tên danh sách</string>
+    <string name="saved_lists_add_item">Thêm mục</string>
+    <string name="saved_lists_save">Lưu</string>
+    <string name="saved_lists_cancel">Hủy</string>
+    <string name="saved_lists_item_count">%1$d mục: %2$s</string>
+    <string name="saved_lists_open_in">Mở bằng…</string>
+    <string name="saved_lists_open_wheel">Vòng quay</string>
+    <string name="saved_lists_open_name">Chọn tên</string>
+    <string name="saved_lists_edit">Sửa danh sách</string>
+    <string name="saved_lists_duplicate">Nhân bản</string>
+    <string name="saved_lists_rename">Đổi tên</string>
+    <string name="saved_lists_rename_hint">Tên mới</string>
+
+    <!-- Wheel screen -->
+    <string name="wheel_title">Vòng quay</string>
+    <string name="wheel_add_option_hint">Thêm lựa chọn…</string>
+    <string name="wheel_spin_again">Quay lại</string>
+    <string name="action_remove">Xóa</string>
+    <string name="wheel_save_list">Lưu danh sách</string>
+    <string name="wheel_winner_label">Kết quả</string>
+    <string name="wheel_edit_list">Sửa</string>
+    <string name="wheel_save_dialog_title">Lưu danh sách</string>
+    <string name="wheel_save_dialog_hint">Tên danh sách</string>
+    <string name="wheel_default_save_name">Vòng quay của tôi</string>
+    <string name="wheel_color">Màu sắc</string>
+    <string name="wheel_weight">Trọng số</string>
+    <string name="wheel_weight_hint">Cao hơn = dễ trúng hơn</string>
+
+    <!-- Name Picker screen -->
+    <string name="name_title">Chọn tên</string>
+    <string name="name_empty_title">Chưa có tên nào</string>
+    <string name="name_empty_sub">Thêm tên hoặc dán danh sách để bắt đầu</string>
+    <string name="name_add_hint">Thêm tên…</string>
+    <string name="name_paste_hint">Dán tên (mỗi dòng hoặc phân cách bằng dấu phẩy)</string>
+    <string name="name_paste_button">Dán danh sách</string>
+    <string name="name_paste_add">Thêm tất cả</string>
+    <string name="name_pick_again">Chọn lại</string>
+    <string name="name_edit">Sửa</string>
+    <string name="name_winner_label">Kết quả</string>
+    <string name="name_save_list">Lưu danh sách</string>
+    <string name="name_save_dialog_title">Lưu danh sách tên</string>
+    <string name="name_save_dialog_hint">Tên danh sách</string>
+    <string name="name_default_save_name">Danh sách tên của tôi</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Cài đặt</string>
+    <string name="settings_dark_mode">Chế độ tối</string>
+    <string name="settings_dynamic_color">Màu động (Android 12+)</string>
+    <string name="settings_sound">Hiệu ứng âm thanh</string>
+    <string name="settings_haptic">Phản hồi rung</string>
+    <string name="settings_section_appearance">Giao diện</string>
+    <string name="settings_section_feedback">Phản hồi</string>
+
+    <!-- Rate app -->
+    <string name="rate_title">Bạn thích Pickora?</string>
+    <string name="rate_message">Nếu bạn thích app, hãy để lại đánh giá nhé!</string>
+    <string name="rate_yes">Đánh giá ngay</string>
+    <string name="rate_later">Để sau</string>
+
+    <!-- Seed data -->
+    <string name="seed_wheel_1">Phở</string>
+    <string name="seed_wheel_2">Bún bò</string>
+    <string name="seed_wheel_3">Cơm tấm</string>
+    <string name="seed_wheel_4">Bánh mì</string>
+    <string name="seed_wheel_5">Hủ tiếu</string>
+    <string name="seed_wheel_6">Bún chả</string>
+    <string name="seed_player_1">Người chơi 1</string>
+    <string name="seed_player_2">Người chơi 2</string>
+    <string name="seed_player_3">Người chơi 3</string>
+    <string name="seed_player_4">Người chơi 4</string>
+
+    <!-- Presets -->
+    <!-- Preset items -->
+    <string name="preset_item_pizza">Pizza</string>
+    <string name="preset_item_sushi">Sushi</string>
+    <string name="preset_item_burger">Hamburger</string>
+    <string name="preset_item_pho">Phở</string>
+    <string name="preset_item_tacos">Tacos</string>
+    <string name="preset_item_pasta">Mì Ý</string>
+    <string name="preset_item_salad">Gỏi</string>
+    <string name="preset_item_ramen">Mì ramen</string>
+    <string name="preset_item_fried_chicken">Gà rán</string>
+    <string name="preset_item_curry">Cà ri</string>
+    <string name="preset_item_truth">Thật</string>
+    <string name="preset_item_dare">Thách</string>
+    <string name="preset_item_pushups">Hít đất 10 cái</string>
+    <string name="preset_item_sing">Hát một bài</string>
+    <string name="preset_item_dance">Nhảy 30 giây</string>
+    <string name="preset_item_joke">Kể chuyện cười</string>
+    <string name="preset_item_impression">Bắt chước ai đó</string>
+    <string name="preset_item_accent">Nói giọng lạ 1 phút</string>
+    <string name="preset_item_story">Cho ai đó đăng story</string>
+    <string name="preset_item_spicy">Ăn đồ cay</string>
+    <string name="preset_item_action">Hành động</string>
+    <string name="preset_item_comedy">Hài</string>
+    <string name="preset_item_horror">Kinh dị</string>
+    <string name="preset_item_romance">Tình cảm</string>
+    <string name="preset_item_scifi">Khoa học viễn tưởng</string>
+    <string name="preset_item_thriller">Giật gân</string>
+    <string name="preset_item_animation">Hoạt hình</string>
+    <string name="preset_item_documentary">Tài liệu</string>
+    <string name="preset_item_pushups_ex">Hít đất</string>
+    <string name="preset_item_squats">Squat</string>
+    <string name="preset_item_plank">Plank</string>
+    <string name="preset_item_burpees">Burpees</string>
+    <string name="preset_item_jumping_jacks">Jumping Jacks</string>
+    <string name="preset_item_lunges">Lunges</string>
+    <string name="preset_item_situps">Gập bụng</string>
+    <string name="preset_item_mountain_climbers">Mountain Climbers</string>
+    <string name="preset_item_coffee">Cà phê</string>
+    <string name="preset_item_milk_tea">Trà sữa</string>
+    <string name="preset_item_smoothie">Sinh tố</string>
+    <string name="preset_item_juice">Nước ép</string>
+    <string name="preset_item_water">Nước lọc</string>
+    <string name="preset_item_soda">Nước ngọt</string>
+    <string name="preset_item_matcha">Matcha Latte</string>
+    <string name="preset_item_hot_chocolate">Sô-cô-la nóng</string>
+    <string name="preset_item_japan">Nhật Bản</string>
+    <string name="preset_item_korea">Hàn Quốc</string>
+    <string name="preset_item_thailand">Thái Lan</string>
+    <string name="preset_item_france">Pháp</string>
+    <string name="preset_item_italy">Ý</string>
+    <string name="preset_item_usa">Mỹ</string>
+    <string name="preset_item_australia">Úc</string>
+    <string name="preset_item_vietnam">Việt Nam</string>
+
+    <string name="preset_what_to_eat">Hôm nay ăn gì?</string>
+    <string name="preset_truth_or_dare">Thật hay Thách</string>
+    <string name="preset_random_punishment">Hình phạt ngẫu nhiên</string>
+    <string name="preset_movie_night">Tối xem phim</string>
+    <string name="preset_random_workout">Tập luyện ngẫu nhiên</string>
+    <string name="preset_what_to_drink">Uống gì đây?</string>
+    <string name="preset_where_to_travel">Đi đâu chơi?</string>
+    <string name="preset_who_pays">Ai trả bill?</string>
+</resources>

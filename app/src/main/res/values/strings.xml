@@ -1,0 +1,266 @@
+<resources>
+    <string name="app_name">Pickora</string>
+
+    <!-- Home -->
+    <string name="home_tagline">Pick anything, randomly</string>
+    <string name="home_quick_start">Quick Start</string>
+    <string name="home_hero_cta">Tap to spin</string>
+    <string name="home_all_modes">All Modes</string>
+    <string name="home_quick_presets">Quick Presets</string>
+    <string name="home_history">History</string>
+    <string name="home_saved_lists">Saved Lists</string>
+    <string name="home_recent_pick">Recent Pick</string>
+    <string name="home_no_recent">No picks yet</string>
+    <string name="home_preset_items_count">%d items</string>
+    <string name="home_continue_with">Continue with</string>
+    <string name="home_tap_to_open">Tap to open</string>
+    <string name="home_for_groups">For Groups</string>
+    <string name="home_quick_decisions">Quick Decisions</string>
+    <string name="home_use_case_who_first">Who goes first?</string>
+    <string name="home_use_case_what_eat">What should we eat?</string>
+    <string name="home_use_case_who_pays">Who pays?</string>
+    <string name="home_use_case_yes_or_no">Yes or no?</string>
+    <string name="home_use_case_pick_number">Pick a number</string>
+    <string name="home_use_case_flip_coin">Flip a coin</string>
+
+    <!-- Saved lists -->
+    <string name="saved_lists_edit">Edit List</string>
+    <string name="saved_lists_duplicate">Duplicate</string>
+    <string name="saved_lists_rename">Rename</string>
+    <string name="saved_lists_rename_hint">New name</string>
+
+    <!-- Picker modes -->
+    <string name="mode_spin_wheel">Spin Wheel</string>
+    <string name="mode_spin_wheel_desc">Spin to pick a winner</string>
+    <string name="mode_name_picker">Name Picker</string>
+    <string name="mode_name_picker_desc">Pick a random name</string>
+    <string name="mode_random_number">Random Number</string>
+    <string name="mode_random_number_desc">Generate a number</string>
+    <string name="mode_yes_no">Yes / No</string>
+    <string name="mode_yes_no_desc">Quick yes or no</string>
+    <string name="mode_coin_flip">Coin Flip</string>
+    <string name="mode_coin_flip_desc">Heads or tails</string>
+    <string name="mode_animal_race">Animal Race</string>
+    <string name="mode_animal_race_desc">Race to the finish</string>
+
+    <!-- Actions -->
+    <string name="action_spin">SPIN</string>
+    <string name="action_back">Back</string>
+    <string name="action_share">Share</string>
+    <string name="action_start_race">START RACE</string>
+    <string name="action_reset">RESET</string>
+    <string name="action_generate">GENERATE</string>
+    <string name="action_decide">DECIDE</string>
+    <string name="action_flip">FLIP</string>
+    <string name="action_pick_name">PICK A NAME</string>
+    <string name="action_run_again">Run Again</string>
+
+    <!-- States -->
+    <string name="state_spinning">Spinning…</string>
+    <string name="state_racing">Racing…</string>
+    <string name="state_generating">Generating…</string>
+    <string name="state_deciding">Deciding…</string>
+    <string name="state_flipping">Flipping…</string>
+    <string name="state_picking">Picking…</string>
+
+    <!-- Misc -->
+    <string name="options_count">%d options</string>
+    <string name="racers_count">%d racers</string>
+    <string name="names_count">%d names</string>
+    <string name="remove_after_pick">Remove after pick</string>
+    <string name="add_name_hint">Add a name…</string>
+    <string name="label_min">Min</string>
+    <string name="label_max">Max</string>
+    <string name="label_to">to</string>
+    <string name="label_history">History</string>
+    <string name="label_yes">YES</string>
+    <string name="label_no">NO</string>
+    <string name="label_heads">Heads</string>
+    <string name="label_tails">Tails</string>
+    <string name="wins_suffix">%s wins!</string>
+    <string name="paste_list">Paste List</string>
+    <string name="paste_hint">Paste items (one per line or comma-separated)</string>
+    <string name="paste_add">Add All</string>
+    <string name="share_result">Share result</string>
+
+    <!-- Share messages -->
+    <string name="share_wheel">The wheel picked: %s</string>
+    <string name="share_number">Random number: %s</string>
+    <string name="share_name">Winner is: %s</string>
+    <string name="share_yesno">The answer is: %s</string>
+    <string name="share_coinflip">Coin flip result: %s</string>
+    <string name="share_race">Race winner: %s</string>
+    <string name="share_default">Result: %s</string>
+    <string name="share_suffix">\n\n— Pickora App</string>
+
+    <!-- Number screen -->
+    <string name="number_title">Random Number</string>
+    <string name="number_placeholder">?</string>
+
+    <!-- Yes/No screen -->
+    <string name="yesno_title">Yes or No</string>
+    <string name="yesno_placeholder">?</string>
+
+    <!-- Coin Flip screen -->
+    <string name="coinflip_title">Coin Flip</string>
+
+    <!-- Race screen -->
+    <string name="race_title">Animal Race</string>
+    <string name="race_edit">Edit Racers</string>
+    <string name="race_add_hint">Add racer…</string>
+    <string name="race_again">Race Again</string>
+    <string name="race_save_roster">Save Roster</string>
+    <string name="race_winner_label">Winner</string>
+    <string name="race_save_dialog_title">Save Roster</string>
+    <string name="race_save_dialog_hint">Roster name</string>
+    <string name="race_default_save_name">My Roster</string>
+
+    <!-- History screen -->
+    <string name="history_title">History</string>
+    <string name="history_empty">No history yet</string>
+    <string name="history_empty_sub">Results will appear here after you pick</string>
+    <string name="history_clear_all">Clear All</string>
+    <string name="history_type_wheel">Wheel</string>
+    <string name="history_type_number">Number</string>
+    <string name="history_type_name">Name Picker</string>
+    <string name="history_type_yesno">Yes / No</string>
+    <string name="history_type_coinflip">Coin Flip</string>
+    <string name="history_type_race">Race</string>
+    <string name="history_with_options">from: %s</string>
+
+    <!-- Saved lists -->
+    <string name="saved_lists_title">Saved Lists</string>
+    <string name="saved_lists_empty">No saved lists yet</string>
+    <string name="saved_lists_empty_sub">Tap + to create one</string>
+    <string name="saved_lists_create">Create New List</string>
+    <string name="saved_lists_name_label">List Name</string>
+    <string name="saved_lists_add_item">Add item</string>
+    <string name="saved_lists_save">Save</string>
+    <string name="saved_lists_cancel">Cancel</string>
+    <string name="saved_lists_item_count">%1$d items: %2$s</string>
+    <string name="saved_lists_open_in">Open in…</string>
+    <string name="saved_lists_open_wheel">Spin Wheel</string>
+    <string name="saved_lists_open_name">Name Picker</string>
+
+    <!-- Wheel screen -->
+    <string name="wheel_title">Spin Wheel</string>
+    <string name="wheel_add_option_hint">Add option…</string>
+    <string name="wheel_spin_again">Spin Again</string>
+    <string name="action_remove">Remove</string>
+    <string name="wheel_save_list">Save List</string>
+    <string name="wheel_winner_label">Result</string>
+    <string name="wheel_edit_list">Edit</string>
+    <string name="wheel_save_dialog_title">Save as List</string>
+    <string name="wheel_save_dialog_hint">List name</string>
+    <string name="wheel_default_save_name">My Wheel</string>
+    <string name="wheel_color">Color</string>
+    <string name="wheel_weight">Weight</string>
+    <string name="wheel_weight_hint">Higher = more likely</string>
+
+    <!-- Name Picker screen -->
+    <string name="name_title">Name Picker</string>
+    <string name="name_empty_title">No names yet</string>
+    <string name="name_empty_sub">Add names or paste a list to get started</string>
+    <string name="name_add_hint">Add a name…</string>
+    <string name="name_paste_hint">Paste names (one per line or comma-separated)</string>
+    <string name="name_paste_button">Paste List</string>
+    <string name="name_paste_add">Add All</string>
+    <string name="name_pick_again">Pick Again</string>
+    <string name="name_edit">Edit</string>
+    <string name="name_winner_label">Result</string>
+    <string name="name_save_list">Save List</string>
+    <string name="name_save_dialog_title">Save Name List</string>
+    <string name="name_save_dialog_hint">List name</string>
+    <string name="name_default_save_name">My Names</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_dark_mode">Dark Mode</string>
+    <string name="settings_dynamic_color">Dynamic Color (Android 12+)</string>
+    <string name="settings_sound">Sound Effects</string>
+    <string name="settings_haptic">Haptic Feedback</string>
+    <string name="settings_section_appearance">Appearance</string>
+    <string name="settings_section_feedback">Feedback</string>
+
+    <!-- Rate app -->
+    <string name="rate_title">Enjoying Pickora?</string>
+    <string name="rate_message">If you like the app, please leave a rating!</string>
+    <string name="rate_yes">Rate Now</string>
+    <string name="rate_later">Maybe Later</string>
+
+    <!-- Seed data -->
+    <string name="seed_wheel_1">Pizza</string>
+    <string name="seed_wheel_2">Sushi</string>
+    <string name="seed_wheel_3">Burger</string>
+    <string name="seed_wheel_4">Pho</string>
+    <string name="seed_wheel_5">Tacos</string>
+    <string name="seed_wheel_6">Ramen</string>
+    <string name="seed_player_1">Player 1</string>
+    <string name="seed_player_2">Player 2</string>
+    <string name="seed_player_3">Player 3</string>
+    <string name="seed_player_4">Player 4</string>
+
+    <!-- Presets -->
+    <!-- Preset items -->
+    <string name="preset_item_pizza">Pizza</string>
+    <string name="preset_item_sushi">Sushi</string>
+    <string name="preset_item_burger">Burger</string>
+    <string name="preset_item_pho">Pho</string>
+    <string name="preset_item_tacos">Tacos</string>
+    <string name="preset_item_pasta">Pasta</string>
+    <string name="preset_item_salad">Salad</string>
+    <string name="preset_item_ramen">Ramen</string>
+    <string name="preset_item_fried_chicken">Fried Chicken</string>
+    <string name="preset_item_curry">Curry</string>
+    <string name="preset_item_truth">Truth</string>
+    <string name="preset_item_dare">Dare</string>
+    <string name="preset_item_pushups">Do 10 pushups</string>
+    <string name="preset_item_sing">Sing a song</string>
+    <string name="preset_item_dance">Dance for 30s</string>
+    <string name="preset_item_joke">Tell a joke</string>
+    <string name="preset_item_impression">Do an impression</string>
+    <string name="preset_item_accent">Speak in accent for 1 min</string>
+    <string name="preset_item_story">Let someone post on your story</string>
+    <string name="preset_item_spicy">Eat something spicy</string>
+    <string name="preset_item_action">Action</string>
+    <string name="preset_item_comedy">Comedy</string>
+    <string name="preset_item_horror">Horror</string>
+    <string name="preset_item_romance">Romance</string>
+    <string name="preset_item_scifi">Sci-Fi</string>
+    <string name="preset_item_thriller">Thriller</string>
+    <string name="preset_item_animation">Animation</string>
+    <string name="preset_item_documentary">Documentary</string>
+    <string name="preset_item_pushups_ex">Pushups</string>
+    <string name="preset_item_squats">Squats</string>
+    <string name="preset_item_plank">Plank</string>
+    <string name="preset_item_burpees">Burpees</string>
+    <string name="preset_item_jumping_jacks">Jumping Jacks</string>
+    <string name="preset_item_lunges">Lunges</string>
+    <string name="preset_item_situps">Sit-ups</string>
+    <string name="preset_item_mountain_climbers">Mountain Climbers</string>
+    <string name="preset_item_coffee">Coffee</string>
+    <string name="preset_item_milk_tea">Milk Tea</string>
+    <string name="preset_item_smoothie">Smoothie</string>
+    <string name="preset_item_juice">Juice</string>
+    <string name="preset_item_water">Water</string>
+    <string name="preset_item_soda">Soda</string>
+    <string name="preset_item_matcha">Matcha Latte</string>
+    <string name="preset_item_hot_chocolate">Hot Chocolate</string>
+    <string name="preset_item_japan">Japan</string>
+    <string name="preset_item_korea">Korea</string>
+    <string name="preset_item_thailand">Thailand</string>
+    <string name="preset_item_france">France</string>
+    <string name="preset_item_italy">Italy</string>
+    <string name="preset_item_usa">USA</string>
+    <string name="preset_item_australia">Australia</string>
+    <string name="preset_item_vietnam">Vietnam</string>
+
+    <string name="preset_what_to_eat">What Should I Eat?</string>
+    <string name="preset_truth_or_dare">Truth or Dare</string>
+    <string name="preset_random_punishment">Random Punishment</string>
+    <string name="preset_movie_night">Movie Night</string>
+    <string name="preset_random_workout">Random Workout</string>
+    <string name="preset_what_to_drink">What to Drink?</string>
+    <string name="preset_where_to_travel">Where to Travel?</string>
+    <string name="preset_who_pays">Who Pays the Bill?</string>
+</resources>

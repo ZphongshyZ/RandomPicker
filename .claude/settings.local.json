@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(./gradlew testDebugUnitTest)",
+      "Bash(./gradlew compileDebugKotlin)",
+      "Bash(./gradlew testDebugUnitTest --info)",
+      "Bash(find /Users/yinyang/Documents/app/RandomPicker/app/build/test-results -name \"*.xml\" -exec grep -l \"testcase\" {})",
+      "Bash(ls -la /Users/yinyang/Documents/app/RandomPicker/app/src/main/res/values*/)"
+    ]
+  }
+}
