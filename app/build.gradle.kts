@@ -35,6 +35,7 @@ android {
     }
     buildFeatures {
         compose = true
+        buildConfig = true
     }
 }
 
@@ -63,6 +64,9 @@ dependencies {
 
     // Gson for JSON serialization
     implementation(libs.gson)
+
+    // AdMob
+    implementation(libs.play.services.ads)
 
     testImplementation(libs.junit)
     testImplementation(libs.kotlinx.coroutines.test)

@@ -97,7 +97,7 @@ fun HistoryScreen(
                     .padding(horizontal = 16.dp),
                 verticalArrangement = Arrangement.spacedBy(8.dp)
             ) {
-                items(history) { entry ->
+                items(history, key = { entry -> entry.id }) { entry ->
                     // Only offer Run Again for modes with reusable option lists
                     val canRerun = onRunAgain != null &&
                         entry.options.isNotEmpty() &&

@@ -111,7 +111,7 @@ fun SavedListScreen(
                     .padding(horizontal = 16.dp),
                 verticalArrangement = Arrangement.spacedBy(8.dp)
             ) {
-                items(savedLists) { list ->
+                items(savedLists, key = { list -> list.id }) { list ->
                     Card(
                         onClick = { pendingList = list },
                         modifier = Modifier.fillMaxWidth(),

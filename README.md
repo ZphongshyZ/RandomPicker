@@ -5,7 +5,7 @@
 This project is an Android application that provides multiple creative random selection systems, such as:
 
 - Random Wheel
-- Animal Race Random Picker
+- Animal Race for Pickora
 - Random Number Generator
 - Future creative random mechanisms
 
