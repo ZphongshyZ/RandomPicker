@@ -263,4 +263,19 @@
     <string name="preset_what_to_drink">What to Drink?</string>
     <string name="preset_where_to_travel">Where to Travel?</string>
     <string name="preset_who_pays">Who Pays the Bill?</string>
+
+    <!-- Accessibility -->
+    <string name="cd_add">Add</string>
+    <string name="cd_remove">Remove</string>
+    <string name="cd_delete">Delete</string>
+    <string name="cd_create_list">Create new list</string>
+
+    <!-- About -->
+    <string name="settings_section_about">About</string>
+    <string name="settings_version">Version %s</string>
+    <string name="settings_privacy_policy">Privacy Policy</string>
+    <string name="settings_open_source">Open Source Licenses</string>
+    <string name="branding_made_by">Made by Wedabro</string>
+    <string name="privacy_policy_url">https://sites.google.com/view/pickoraxwedabro/trang-ch%E1%BB%A7</string>
+    <string name="settings_language">Language</string>
 </resources>

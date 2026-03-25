@@ -4,13 +4,13 @@ plugins {
 }
 
 android {
-    namespace = "com.hntech.pickora"
+    namespace = "com.phongcha.pickora"
     compileSdk {
         version = release(36)
     }
 
     defaultConfig {
-        applicationId = "com.hntech.pickora"
+        applicationId = "com.phongcha.pickora"
         minSdk = 24
         targetSdk = 36
         versionCode = 1

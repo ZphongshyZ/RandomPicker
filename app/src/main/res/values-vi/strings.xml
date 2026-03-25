@@ -261,4 +261,19 @@
     <string name="preset_what_to_drink">Uống gì đây?</string>
     <string name="preset_where_to_travel">Đi đâu chơi?</string>
     <string name="preset_who_pays">Ai trả bill?</string>
+
+    <!-- Accessibility -->
+    <string name="cd_add">Thêm</string>
+    <string name="cd_remove">Xóa</string>
+    <string name="cd_delete">Xóa</string>
+    <string name="cd_create_list">Tạo danh sách mới</string>
+
+    <!-- About -->
+    <string name="settings_section_about">Giới thiệu</string>
+    <string name="settings_version">Phiên bản %s</string>
+    <string name="settings_privacy_policy">Chính sách bảo mật</string>
+    <string name="settings_open_source">Giấy phép mã nguồn mở</string>
+    <string name="branding_made_by">Made by Wedabro</string>
+    <string name="privacy_policy_url">https://sites.google.com/view/pickoraxwedabro/trang-ch%E1%BB%A7</string>
+    <string name="settings_language">Ngôn ngữ</string>
 </resources>
